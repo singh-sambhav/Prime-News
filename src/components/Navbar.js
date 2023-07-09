@@ -28,7 +28,7 @@ export class Navbar extends Component {
       <div>
         <nav className="navbar fixed-top navbar-expand-lg bg-info" style={{height:'3.5rem'}}>
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">News Ride</Link>
+                <Link className="navbar-brand" to="/">Prime News</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
