@@ -14,6 +14,7 @@ import {
 import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
+  
   constructor (){
     super();
     this.state={
@@ -22,8 +23,8 @@ export default class App extends Component {
       query:'india',
       pageS:6,
       infinite:false,
-      apikey: process.env.REACT_APP_NEWS_API
-      // apikey: "bae9b8c2fd3d4224bede588eb22a7a72"
+      // apikey: process.env.REACT_APP_NEWS_API
+      apikey: "bae9b8c2fd3d4224bede588eb22a7a72"
     }  
     this.changePgsize=this.changePgsize.bind(this);
     this.setProgress=this.setProgress.bind(this);//to resolve setState is not a function
